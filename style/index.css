@@ -1,1 +1,97 @@
-/* CSS stillerinizi buraya girin */
+body {
+    margin: 10px;
+    padding: 10px;
+}
+
+
+header {
+   margin-bottom: 20px;
+    padding: 3%;
+    background-color: rgb(222, 222, 235);
+}
+
+h1{
+    font-size: 27px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+}
+nav a {
+    border: solid 1px rgb(231, 183, 183);
+    color: black;
+    padding: 2% 3%;  
+}
+
+main{
+    margin-top: 20px 0 20px 0;
+    width: 70vw;
+    height: 24vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+main img {
+    width: 300px;
+    height: 300px;
+    margin: 0 50px 0 50px;
+}
+
+main div {
+    display: inline-block; 
+    width: 3000px;
+    max-height: 350px;
+
+}
+
+a {
+    display: inline-block;
+    border: solid 1px #7171eb;
+    text-align: center;
+    background-color:rgb(173, 173, 202);
+    border-radius: 10%;
+    padding: 8px;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+
+section div {
+    width: 22vw;
+    text-align: center;    
+}
+section div div {
+width: 22vw;
+height: 22vw;
+background-size: 100% 100%;
+
+} 
+
+img {
+    width: 22vw;
+    height: 22vw;
+    object-fit: cover;
+
+}
+
+footer{
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(240, 212, 222);
+    color: black;
+}
+a:hover {
+    background: rgb(232, 133, 133);
+    color: white;
+    cursor: pointer;
+}
